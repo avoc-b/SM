@@ -1,0 +1,88 @@
+#modal_bg{
+    position: fixed; top: 0; left: 0;   
+    width: 100%; height: 100%;
+    background-color: #000;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25);
+    -moz-opacity: 0.25; -khtml-opacity: 0.25; opacity: 0.25;    
+    display: none;
+    z-index: 9990; 
+}
+.modal_vraper{
+    /*width: 400px;*/ height: auto;
+    position: fixed; top: /*-300*/10px; left: 50%;
+    z-index: 9999;
+}
+.modal_head {
+    height: 18px; padding: 5px 28px 5px 10px;    
+    background-color: #333333;
+    box-shadow: 0 0 5px #000000;
+    color: #BCBCBC;    
+    font: 14px/18px Tahoma;
+    display: block;
+    overflow: hidden;  
+    cursor: move; 
+    opacity: 0.9;
+}
+.modal_x{
+    width: 16px; height: 16px;
+    position: absolute; right: 6px; top: 6px;
+    background: url("../img/ico-cancel.gif");
+}
+.modal_body {
+    padding: 5px 10px 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px #000000;
+    display: block;
+    overflow: hidden;
+    position: relative;    
+}
+.modal_body > div {
+    /*overflow-y: scroll;*/
+}
+.modal_img{
+    width: 100px; height: 100px;
+    position: absolute; top: 300px; left: 50%;
+    text-align: center;
+    background: url("../img/loader.png") 50% 50% no-repeat;
+    margin: 0 auto;
+}
+
+
+#drop {
+        /*background: url(http://png-1.findicons.com/files/icons/2152/snowish/48/ark.png) no-repeat 50% 50% #EFEFEF;
+        border: 1px solid #CCCCCC;        
+        height: 70px;
+        margin: 20px 5px;
+        width: 300px;*/
+        cursor: pointer;
+        display: inline-block;
+    }
+    .fu_progres {
+        background: #191919;
+        border: 1px solid #404040;
+        margin: 10px;
+        width: 300px;
+    }
+    .fu_progres .fu_name {
+        font: 11px/20px Tahoma;
+        padding: 0 5px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }        
+    .fu_progres .fu_line {
+        background: #5555FF;            
+        font: 12px/14px Tahoma; color: #FFFFFF;
+        max-width: 100%;
+        min-width: 31px;
+        width: 0;
+    }
+    
+#upd_progerss {
+    background: #2d2d2d;
+    color: #fff;
+    left: 50%;
+    margin: -23px 0 0 -161px;
+    position: absolute;
+    top: 50%;
+}

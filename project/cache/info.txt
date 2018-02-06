@@ -1,0 +1,135 @@
+<h3 align="left">
+	<img src="http://www.aph.solutions/wp-content/uploads/2016/01/Project-Manager.png" alt="" height="150" width="720" /> 
+</h3>
+<h3 align="left">
+	Заметки:
+</h3>
+<ol>
+</ol>
+<ol>
+	<li>
+		в сообщениях "пользователь" заменить на "сотрудник"
+	</li>
+</ol>
+<h3 align="left">
+	История изменений:<br />
+</h3>
+<p align="right">
+	<img src="http://vitaliynaumenko.ru/wp-content/uploads/2014/01/Spokesman-54-659x1024.png" alt="" height="311" width="200" align="right" /> 
+</p>
+<p>
+	2017-03-06
+</p>
+<ul>
+	<li>
+		модуль управления группами
+	</li>
+	<li>
+		модуль отчётов, "Отчёт по выполненным и поставленным задачам"<br />
+	</li>
+</ul>
+<p>
+	2017-03-03
+</p>
+<ul>
+	<li>
+		исправлена проблема с задвоенностями задач до обновления страницы
+	</li>
+	<li>
+		исправлена проблема с задачами "на целый день"
+	</li>
+	<li>
+		добавлено удаление задач
+	</li>
+	<li>
+		выедены: баллы, главная задача, кто зашел
+	</li>
+	<li>
+		круглые иконки в дереве<br />
+	</li>
+</ul>
+<p>
+	2016-08-11
+</p>
+<ul>
+	<li>
+		плагин дерева подключён к базе и переоформлен, добавлены аватарки и должности<br />
+	</li>
+</ul>
+<p>
+	2016-08-10
+</p>
+<ul>
+	<li>
+		модуль структуры организации подключен к базе данных
+	</li>
+	<li>
+		к структуре добавлена всплывающее меню для манипуляций<br />
+	</li>
+	<li>
+		к структуре добавлена работа с аватарками<br />
+	</li>
+	<li>
+		добавлен плагин select2 с загрузкой данных и выводом аватарок<br />
+	</li>
+</ul>
+<p>
+	2016-08-05
+</p>
+<ul>
+	<li>
+		оформлена страница входа как на старом СМ
+	</li>
+	<li>
+		правки дерева<br />
+	</li>
+</ul>
+<p>
+	2016-07-29
+</p>
+<ul>
+	<li>
+		подключен FullCalendar
+	</li>
+	<li>
+		написан плагин дерева<br />
+	</li>
+	<li>
+		написан модуль структуры организации с возможностью перетаскивания пользователей и отделов<br />
+	</li>
+</ul>
+<p>
+	2016-07-21
+</p>
+<ul>
+	<li>
+		подготовка обновленной версии фреймворка к проекту
+	</li>
+	<li>
+		старт проекта
+	</li>
+</ul>
+<p>
+	<br />
+</p>
+<h3>
+	Полезные ссылки:
+</h3>
+<p>
+	<a class="ke-insertfile" href="https://codepen.io/Pestov/pen/BLpgm" target="_blank">CSS Family Tree </a> 
+</p>
+<p>
+	<a class="ke-insertfile" href="https://gist.github.com/mitchellrj/1321264" target="_blank">HTML &amp; CSS vertical tree layout </a> 
+</p>
+<p>
+	<span id="__kindeditor_bookmark_start_0__"></span> 
+</p>
+<p align="center">
+	&nbsp;
+</p>
+<p align="center">
+	<img src="http://jobsmarket.ru/images/for_news/103412maxim.jpg" alt="" height="691" width="700" /> 
+</p>
+<p align="right">
+	<br />
+</p>

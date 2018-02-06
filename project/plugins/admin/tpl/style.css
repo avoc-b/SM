@@ -1,0 +1,80 @@
+body { margin: 0; padding: 40px 10px 0 240px; position: relative; height: 100%; box-sizing: border-box; overflow: hidden; }
+body.modal { padding-bottom: 166px;}
+.title { position: absolute; top: 0; left: 0; width: 240px; color: #39f; margin: 5px 0; text-align: center; }
+.title span { color: #333; }
+.panel { position:absolute; left: 240px; right: 0; height: 40px; margin-top: -40px; box-shadow: 4px 0 4px #aaa; padding-right: 10px; }
+.panel_r { float: right; }
+.panel input { margin: 7px 0; }
+.btn { 
+    display: inline; padding: 2px 7px; 
+    border: 1px solid #ccc; border-radius: 3px;
+    background: #eee; color: #000; text-decoration: none;
+    }
+.btn:hover { background: #ddd; }
+.btn.active { background-color: #39f; color: #fff; border-color: #3992E6; }
+.btn.active:hover { background: #2779CE; }
+#sidebar {
+    border: 0 none;
+    height: 100%;
+    margin-left: -240px;
+    width: 230px;
+    background-color: #333;
+    overflow-y: scroll;
+    display: inline-block;
+}
+#content {
+    border: 0 none;
+    height: 100%;
+    width: 100%;
+    float: right;
+    overflow: auto;
+    position: relative;
+}
+.modal_w {
+    box-shadow: 0 0 7px #aaa inset;
+    left: 0;
+    position: fixed;
+    right: 10px;
+    height: 150px;
+    border-top: 16px solid #39f;
+}
+.modal_h {
+    background-color: #39f;
+    color: #fff;
+    font: 11px/16px Tahoma;
+    padding: 0 10px;
+    position: absolute;
+    top: -16px;
+    width: 100%;
+}
+#modal {
+    border: 0 none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+table {width: 100%; margin: 0 0 20px; font: 12px/14px Tahoma; border-collapse: collapse;}
+table tr {cursor: pointer;} 
+table td, table th {padding: 2px 5px; line-height: 16px; border: 1px solid #ddd;}       
+table tr:hover {background-color: #c0cee9;}
+table th {background-color: #eee;}
+
+.sidebar, .sidebar ul { list-style: none; padding: 0; font: 12px/14px Tahoma;}
+.sidebar p { border-bottom: 1px solid #777; border-top: 1px solid #777; color: #fff; background-color: #444; margin: 3px 0; padding: 10px; cursor: pointer;}
+.sidebar p:hover { background-color: #555;}
+.sidebar p span { background-color: #777; border-radius: 3px; float: right; padding: 0 5px;}
+.sidebar ul { display: none;}
+.sidebar a { text-decoration: none; color: #ddd; display: block; padding: 1px 10px; word-wrap: break-word;}
+.sidebar a:hover { background-color: #000;}
+.sidebar a.active { background-color: #3399FF; color: #fff;}
+
+.editor { position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: 0;}
+
+th span {
+    color: #ccc;
+    float: left;
+    font-weight: normal;
+}

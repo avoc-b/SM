@@ -1,0 +1,91 @@
+        body { margin: 0; padding: 0; border: 0 none; font: 14px/18px Tahoma; }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0 0 8px #ddd;
+            left: 0;
+            line-height: 3;
+            margin-top: 0;
+            text-align: center;
+            top: 0;
+            color: #0ce;
+        }
+        h2 span { color: #333; }
+        fieldset {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            box-shadow: 0 0 7px #ccc;
+            box-sizing: border-box;
+            float: left;
+            /*height: 300px;*/
+            margin: 25px 4px;
+            position: relative;
+            width: 49%;
+        }
+        legend {
+            background-color: #ccc; /*#00ccf1;*/
+            box-sizing: border-box;
+            color: #fff;
+            font-weight: bold;
+            left: 0;
+            outline: 1px solid #ccc;
+            padding: 3px 10px;
+            position: absolute;
+            text-align: center;
+            top: -18px;
+            width: 100%;
+        }
+        fieldset p input, fieldset p select { float: right; width: 50%; }
+        
+        @media screen and (max-device-width: 1060px) {
+            fieldset { width: 100%;}
+        }
+        
+        .panel {
+            background-color: #eee;
+            border-top: 1px solid #aaa;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%; 
+            clear: both;
+        }
+        
+        #key_button { position: absolute; }
+        #key_desktop {
+        	height: 25px;
+        	line-height: 25px;
+        	font-size: 14px;
+        	background: white;
+        	overflow: hidden;
+        	display: block;
+        	position: relative;
+            float: right;
+            width: 50%;
+        }
+        .symbols {
+        	width: 20px;
+        	text-align: center;
+        	margin: 0 1px;
+        	float: left;
+        	position: relative;
+        	top: 0
+        }
+        .symbol {
+        	width: 20px;
+        	height: 25px;        	
+        	-moz-box-sizing: border-box;
+        	box-sizing: border-box;
+        	/*border: 1px solid #26ADE4;
+            background-color: #2EB5E0;
+        	background-image: -webkit-linear-gradient(top, #59E0FF 0%, #048BC2 100%);
+        	background-image: -moz-linear-gradient(center top , #59E0FF, #048BC2);
+        	background-image: linear-gradient(center top , #59E0FF, #048BC2);*/
+            border: 1px solid #777;
+            background-color: #999;
+            background-image: -webkit-linear-gradient(top, #ccc 0%, #000 100%);
+        	background-image: -moz-linear-gradient(center top , #ccc, #000);
+        	background-image: linear-gradient(center top , #ccc, #000);
+        	color: white;
+        	font-weight: bold;
+        	text-shadow: 1px 1px 1px #000;
+        }

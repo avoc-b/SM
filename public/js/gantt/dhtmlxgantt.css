@@ -1,0 +1,113 @@
+.descProject{ font-family:Tahoma, Arial; font-size:10px; color:#060; cursor:default; white-space:nowrap; }
+
+.poPupInfo { position:absolute; top:0; left:0; width:300px; padding:4px 6px; background:#fff; border:1px solid #279e00; border-radius:5px; z-index:2; }
+.poPupInfo > h3 { font-size:11px; font-weight:bold; color:#259500; margin:0 0 4px 0; padding:0 0 3px 0; text-align:center; border-bottom:1px solid #279e00; }
+
+.poPupInfo > ul {  }
+.poPupInfo > ul li { padding:1px 0; }
+.poPupInfo > ul li .title { font-weight:bold; font-size:9px; padding-right:3px; }
+.poPupInfo > ul li .value { font-size:11px; }
+.poPupInfo > ul li.border { border-bottom:1px dotted #279e00; padding-bottom:4px; margin-bottom:2px; }
+.poPupInfo > ul li ul { }
+.poPupInfo > ul li ul li { padding-left:12px; }
+
+
+.taskItemContainer { z-index:1;position:absolute;left:0;top:0; }
+.taskNameItem { position:absolute; left:15px; width:280px; height:15px; white-space:nowrap; z-index:1; font-family:Tahoma, Arial; color:#900; font-size:11px; cursor:default; }
+.taskNameItem ul { float:right; margin:-3px 4px 0 0; }
+.taskNameItem ul li { padding:0 1px; }
+.taskNameItem ul li .user-thumb { margin:0; }
+.taskNameItem ul li .user-thumb img { width:16px; height:16px; }
+
+.taskNameItem.taskNameMilestone { font-size:13px; font-weight:normal; color:#7d7d7d; margin-top:-2px; }
+.taskNameItem.taskNameMilestone a { color:#333; }
+.taskNameItem.taskNameMilestone a:hover { color:#de8500; }
+.taskNameItem.taskNameMilestone .btnAddProcess { margin-right:2px; }
+.taskNameItem.taskNameMilestone .btnAddProcess .color-icons.bullet_add_1_co { width:13px; margin-top:-2px; background-position:-603px -20px !important; }
+.taskNameItem.taskNameMilestone .btnAddProcess .color-icons.bullet_add_1_co:hover { width:13px; margin-top:-2px; background-position:-624px -20px !important; }
+
+.ganttPlusMinus { margin-top:-2px; }
+
+
+.taskPanel .ganttMilestoneContainer { position:absolute; z-index:1; }
+.taskPanel .ganttTaskContainer { position:absolute; z-index:3; cursor:pointer; }
+.taskPanel .ganttTaskContainer .taskStatus { position:absolute; top:1px; left:1px; padding:0 0 0 1px; white-space:nowrap; }
+.taskPanel .ganttTaskContainer .taskStatus .color-icons { margin-right:1px; margin-top:-2px; }
+
+.taskPanel .ganttMilestone { border:1px solid #ccc; }
+.taskPanel .ganttMilestone .ganttProgressEmpty {
+	background:-moz-linear-gradient(top,  rgba(75,75,75,0) 0%, rgba(75,75,75,0.1) 35%, rgba(75,75,75,0.1) 65%, rgba(75,75,75,0) 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75,75,75,0)), color-stop(35%,rgba(75,75,75,0.1)), color-stop(65%,rgba(75,75,75,0.1)), color-stop(100%,rgba(75,75,75,0)));
+	background:-webkit-linear-gradient(top,  rgba(75,75,75,0) 0%,rgba(75,75,75,0.1) 35%,rgba(75,75,75,0.1) 65%,rgba(75,75,75,0) 100%);
+	background:-o-linear-gradient(top,  rgba(75,75,75,0) 0%,rgba(75,75,75,0.1) 35%,rgba(75,75,75,0.1) 65%,rgba(75,75,75,0) 100%);
+	background:-ms-linear-gradient(top,  rgba(75,75,75,0) 0%,rgba(75,75,75,0.1) 35%,rgba(75,75,75,0.1) 65%,rgba(75,75,75,0) 100%);
+	background:linear-gradient(to bottom,  rgba(75,75,75,0) 0%,rgba(75,75,75,0.1) 35%,rgba(75,75,75,0.1) 65%,rgba(75,75,75,0) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#004b4b4b', endColorstr='#004b4b4b',GradientType=0 );
+}
+.taskPanel .ganttMilestone .ganttProgressFilled {
+	background:-moz-linear-gradient(top,  rgba(75,75,75,0.1) 0%, rgba(75,75,75,0.45) 35%, rgba(75,75,75,0.45) 65%, rgba(75,75,75,0.1) 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75,75,75,0.1)), color-stop(35%,rgba(75,75,75,0.45)), color-stop(65%,rgba(75,75,75,0.45)), color-stop(100%,rgba(75,75,75,0.1)));
+	background:-webkit-linear-gradient(top,  rgba(75,75,75,0.1) 0%,rgba(75,75,75,0.45) 35%,rgba(75,75,75,0.45) 65%,rgba(75,75,75,0.1) 100%);
+	background:-o-linear-gradient(top,  rgba(75,75,75,0.1) 0%,rgba(75,75,75,0.45) 35%,rgba(75,75,75,0.45) 65%,rgba(75,75,75,0.1) 100%);
+	background:-ms-linear-gradient(top,  rgba(75,75,75,0.1) 0%,rgba(75,75,75,0.45) 35%,rgba(75,75,75,0.45) 65%,rgba(75,75,75,0.1) 100%);
+	background:linear-gradient(to bottom,  rgba(75,75,75,0.1) 0%,rgba(75,75,75,0.45) 35%,rgba(75,75,75,0.45) 65%,rgba(75,75,75,0.1) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4b4b4b', endColorstr='#1a4b4b4b',GradientType=0 );
+}
+.taskPanel .ganttProgressFilledOverlay {
+	background:-moz-linear-gradient(top,  rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.10) 40%, rgba(255,255,255,0.10) 60%, rgba(255,255,255,0.75) 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.75)), color-stop(40%,rgba(255,255,255,0.10)), color-stop(60%,rgba(255,255,255,0.10)), color-stop(100%,rgba(255,255,255,0.75)));
+	background:-webkit-linear-gradient(top,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.10) 40%,rgba(255,255,255,0.10) 60%,rgba(255,255,255,0.75) 100%);
+	background:-o-linear-gradient(top,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.10) 40%,rgba(255,255,255,0.10) 60%,rgba(255,255,255,0.75) 100%);
+	background:-ms-linear-gradient(top,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.10) 40%,rgba(255,255,255,0.10) 60%,rgba(255,255,255,0.75) 100%);
+	background:linear-gradient(to bottom,  rgba(255,255,255,0.75) 0%,rgba(255,255,255,0.10) 40%,rgba(255,255,255,0.10) 60%,rgba(255,255,255,0.75) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cffffff', endColorstr='#8cffffff',GradientType=0 );
+}
+.taskPanel .ganttProgressEmptyOverlay {
+	background:-moz-linear-gradient(top,  rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.75) 40%, rgba(255,255,255,0.75) 60%, rgba(255,255,255,0.95) 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.95)), color-stop(40%,rgba(255,255,255,0.75)), color-stop(60%,rgba(255,255,255,0.75)), color-stop(100%,rgba(255,255,255,0.95)));
+	background:-webkit-linear-gradient(top,  rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.75) 40%,rgba(255,255,255,0.75) 60%,rgba(255,255,255,0.95) 100%);
+	background:-o-linear-gradient(top,  rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.75) 40%,rgba(255,255,255,0.75) 60%,rgba(255,255,255,0.95) 100%);
+	background:-ms-linear-gradient(top,  rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.75) 40%,rgba(255,255,255,0.75) 60%,rgba(255,255,255,0.95) 100%);
+	background:linear-gradient(to bottom,  rgba(255,255,255,0.95) 0%,rgba(255,255,255,0.75) 40%,rgba(255,255,255,0.75) 60%,rgba(255,255,255,0.95) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ffffff', endColorstr='#f2ffffff',GradientType=0 );
+}
+
+.taskPanel .ganttTask { border:1px solid #6589a9; }
+.taskPanel .ganttTask .ganttProgressEmpty {
+	background:rgb(247,251,255);
+	background:-moz-linear-gradient(top,  rgba(247,251,255,1) 0%, rgba(221,242,255,1) 48%, rgba(211,238,255,1) 55%, rgba(247,251,255,1) 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,255,1)), color-stop(48%,rgba(221,242,255,1)), color-stop(55%,rgba(211,238,255,1)), color-stop(100%,rgba(247,251,255,1)));
+	background:-webkit-linear-gradient(top,  rgba(247,251,255,1) 0%,rgba(221,242,255,1) 48%,rgba(211,238,255,1) 55%,rgba(247,251,255,1) 100%);
+	background:-o-linear-gradient(top,  rgba(247,251,255,1) 0%,rgba(221,242,255,1) 48%,rgba(211,238,255,1) 55%,rgba(247,251,255,1) 100%);
+	background:-ms-linear-gradient(top,  rgba(247,251,255,1) 0%,rgba(221,242,255,1) 48%,rgba(211,238,255,1) 55%,rgba(247,251,255,1) 100%);
+	background:linear-gradient(to bottom,  rgba(247,251,255,1) 0%,rgba(221,242,255,1) 48%,rgba(211,238,255,1) 55%,rgba(247,251,255,1) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbff', endColorstr='#f7fbff',GradientType=0 );
+}
+.taskPanel .ganttTask .ganttProgressFilled {
+	background:rgb(235,241,246); /* Old browsers */
+	background:-moz-linear-gradient(top,  rgba(235,241,246,1) 0%, rgba(109,185,237,1) 48%, rgba(103,182,234,1) 55%, rgba(213,235,251,1) 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,241,246,1)), color-stop(48%,rgba(109,185,237,1)), color-stop(55%,rgba(103,182,234,1)), color-stop(100%,rgba(213,235,251,1))); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  rgba(235,241,246,1) 0%,rgba(109,185,237,1) 48%,rgba(103,182,234,1) 55%,rgba(213,235,251,1) 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  rgba(235,241,246,1) 0%,rgba(109,185,237,1) 48%,rgba(103,182,234,1) 55%,rgba(213,235,251,1) 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  rgba(235,241,246,1) 0%,rgba(109,185,237,1) 48%,rgba(103,182,234,1) 55%,rgba(213,235,251,1) 100%); /* IE10+ */
+	background:linear-gradient(to bottom,  rgba(235,241,246,1) 0%,rgba(109,185,237,1) 48%,rgba(103,182,234,1) 55%,rgba(213,235,251,1) 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
+}
+
+
+.taskPanelBorder{border-width: 2px 2px 2px 2px;border-style:solid;border-color: #737373;}
+.taskName{font-family: Tahoma, Arial; font-weight: bold;font-size: 11px;color: #FFFFFF;cursor: pointer;white-space: nowrap;}
+.moveInfo{font-family: Tahoma, Arial;font-size: 10px;color:#006600;white-space: nowrap;}
+.descTask{font-family: Tahoma, Arial;font-size: 10px;color:#276F9E;cursor: default;white-space: nowrap;}
+.dayNumber, .monthName{font-family:Tahoma,Arial;font-weight:bold;font-size:9px;color:#858585;text-align:center;vertical-align:middle;}
+.monthName {border-top:1px solid #f1f3f1; border-bottom:1px solid #f1f3f1; border-left:1px solid #f1f3f1;text-align:left;padding-left:5px;}
+.poPupTime{background: #FFFFFF;border:1px dotted #279e00;height:25px;width:70px;position: absolute;z-index:2;}
+.contextMenu{z-index:10;width:150px;cursor:pointer;font-family: Tahoma, Arial;font-size:12px;color:#7D7D7D;border: 1px solid #808080;}
+.panelErrors{;padding: 4px 6px 4px 6px;font-family: Tahoma, Arial;font-size: 12px;color: red;white-space: nowrap;}
+.st {font-family: Arial, Helvetica, Sans-serif; font-size: 10px; font-weight: normal; color: #688060;}
+.ut {font-family: Arial, Helvetica, Sans-serif; font-size: 11px; font-weight: normal; color: #323232;}
+.lt {font-family: Arial, Helvetica, Sans-serif; font-size: 11px; font-weight: normal; color: #323232; padding: 0px 0px 0px 14px; margin: 0px; display: block;}
+
+
+.ganttTodayLine { position:absolute; top:22px; height:100%; width:2px; background:#f00; z-index:2; }
+/*.body{overflow-x:hidden;}*/
